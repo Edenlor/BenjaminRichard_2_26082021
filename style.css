@@ -1,0 +1,70 @@
+:root {
+    font-size: 10px; /* 1 rem = 10 px */
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+@font-face {
+    font-family: "Cantarell";
+    src: url(polices_p2/cantarell_regular_macroman/Cantarell-Regular-webfont.eot);
+    src: url(polices_p2/cantarell_regular_macroman/Cantarell-Regular-webfont.svg);
+    src: url(polices_p2/cantarell_regular_macroman/Cantarell-Regular-webfont.woff);
+}
+
+@font-face {
+    font-family: "Cantarell";
+    src: url(polices_p2/cantarell_regular_macroman/Cantarell-Regular-webfont.eot);
+    src: url(polices_p2/cantarell_regular_macroman/Cantarell-Regular-webfont.svg);
+    src: url(polices_p2/cantarell_regular_macroman/Cantarell-Regular-webfont.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Cantarell", serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "populary"
+        "accomodations"
+        "activities"
+        "footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.accomodations {
+    grid-area: accomodations;
+}
+
+.populary {
+    grid-area: populary;
+}
+
+.activities {
+    grid-area: activities;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+/*
+@media screen and (max-width: 800px){
+}
+
+
+*/
