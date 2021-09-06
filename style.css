@@ -8,19 +8,17 @@ h1 {
 
 h2 {
     font-size: 1.4rem;
+    padding: 10px;
 }
 
 h3 {
     font-size: 1.3rem
 }
 
-p {
+p, a {
     font-size: 1rem;
 }
 
-a {
-    font-size: 1rem;
-}
 
 @font-face {
     font-family: "Cantarell";
@@ -30,6 +28,8 @@ a {
     font-weight: normal;
     font-style: normal;
 }
+
+
 
 body {
     font-family: "Cantarell", serif;
@@ -50,49 +50,74 @@ body {
 .header ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
 }
 
 .accomodations {
     grid-area: accomodations;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px;
     grid-gap: 10px;
     width: auto;
     height: auto;
+}
+
+.accomodations figure{
+    margin: 10px;
 }
 
 .populary {
     grid-area: populary;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px;
     grid-gap: 10px;
     width: auto;
     height: auto;
+}
+
+.populary header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.populary figure{
+    margin: 10px;
+    display: flex;
 }
 
 .activities {
     grid-area: activities;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding: 20px;
     grid-gap: 10px;
     width: auto;
     height: auto;
 }
 
-.footer {
-    grid-area: footer;
+.activities figure{
+    margin: 10px;
 }
 
-.footer ul {
+.footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
+    grid-area: footer;
+    padding: 20px;
 }
+
 
 /*
 @media screen and (max-width: 800px){
 }
+.populary figure{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
 
+.activities figure {
+    padding: 20px;
+    height: 100%;
+}
+
+.accomodations figure {
+    padding: 20px;
+    height: 100%;
+}
 
 */
