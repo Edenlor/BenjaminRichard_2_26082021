@@ -140,7 +140,7 @@ input{
     font-size: 1.1rem;
 }
 
-#activities {
+#activities{
 grid-template-columns: 1fr 1fr;
 grid-template-areas:
 "acti acti"
