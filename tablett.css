@@ -1,0 +1,213 @@
+:root{
+    font-size: 15px;
+}
+
+h1{
+    font-size: 1.4rem;
+}
+
+header > p{
+    font-size: 1.2rem;
+}
+
+form{
+    padding: 20px;
+}
+
+#marker{
+    border-radius: 12px 0 0 12px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+}
+
+input{
+    height: 35px;
+    width: 35%;
+    font-size: 1.1rem;
+}
+
+.searching > button{
+    border-radius: 12px;
+    height: 35px;
+    width: 35px;
+}
+
+.filters{
+    font-size: 1.1rem;
+    padding: 0 0 15px 0;
+}
+
+#accomodations{
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+            "acco-header acco-header"
+            "cannebiere dockhotel"
+            "seagull seahotel"
+            "bucket amina";
+    background-color: #f2f2f2;
+}
+
+.acco-header{
+    grid-area: acco-header;
+}
+
+.cannebiere{
+    grid-area: cannebiere;
+}
+
+.dockhotel{
+    grid-area: dockhotel;
+}
+
+.seagull{
+    grid-area: seagull
+}
+
+.seahotel{
+    grid-area: seahotel;
+}
+
+.bucket{
+    grid-area: bucket;
+}
+
+.amina{
+    grid-area: amina;
+}
+
+#populary{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 150px 150px;
+    grid-template-areas:
+                "pop-header pop-header"
+                "morningsun whiteandblue"
+                "waterheart whiteandblue";
+}
+
+#populary figure{
+    height: 100%;
+}
+
+#populary > img{
+    display: none;
+}
+
+.pop-header{
+    grid-area: pop-header;
+}
+
+.morningsun{
+    grid-area: morningsun;
+}
+
+#morningsun > img{
+    width: 40%;
+}
+
+.waterheart{
+    grid-area: waterheart;
+}
+
+#waterheart > img{
+    width: 40%;
+}
+
+.whiteandblue{
+    grid-area: whiteandblue;
+}
+
+#whiteandblue{
+    flex-direction: column;
+}
+
+#whiteandblue > img{
+    width: 100%;
+    height: 65%;
+    border-radius: 15px 15px 0 0;
+}
+
+#whiteandblue > figcaption{
+    width:100%;
+    height: 35%;
+}
+
+#populary figcaption{
+    width: 60%;
+}
+
+#populary figcaption h3{
+    font-size: 1.1rem;
+}
+
+#activities {
+grid-template-columns: 1fr 1fr;
+grid-template-areas:
+"acti acti"
+"oldock pomegues"
+"frioul nationalpark"
+"notredame longchamppark";
+    background-color: white;
+}
+
+.acti{
+    grid-area: acti;
+}
+
+.olddock{
+    grid-area: oldock;
+}
+
+.pomegues{
+    grid-area: pomegues;
+}
+
+.frioul{
+    grid-area: frioul
+}
+
+.nationalpark{
+    grid-area: nationalpark;
+}
+
+.notredame{
+    grid-area: notredame;
+}
+
+.longchamppark{
+    grid-area: longchamppark;
+}
+
+.footer {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+                "title1 title2 title3"
+                "conditions quality support"
+                "conditions quality support"
+                "conditions quality support";
+    grid-gap: 20px;
+}
+
+.title1 {
+    grid-area: title1;
+}
+
+.title2 {
+    grid-area: title2;
+}
+
+.title3 {
+    grid-area: title3;
+}
+
+.conditions {
+    grid-area: conditions;
+}
+
+.quality {
+    grid-area: quality;
+}
+
+.support {
+    grid-area: support;
+}

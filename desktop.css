@@ -1,0 +1,203 @@
+:root {
+    font-size: 16px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+        "header header"
+        "accomodations populary"
+        "activities activities"
+        "footer footer";
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: black;
+}
+
+p, a {
+    font-size: 0.9rem
+}
+
+header ul {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr;
+    grid-template-rows: 80px;
+    grid-template-areas:
+        "logo nav-accomodations nav-activities nav-register";
+}
+
+#logo {
+    top: 25px;
+    left: 15px;
+}
+
+.nav-accomodations{
+    border-top: 2px solid #0065fc;
+    border-bottom: none;
+    justify-content: center;
+}
+
+.nav-register, .nav-activities{
+    border-bottom: none;
+    justify-content: center;
+}
+
+input{
+    width: 25%;
+}
+
+.lookingfor {
+    display: block;
+}
+
+#search {
+    display: none;
+}
+
+.searching > button {
+    width: auto;
+}
+
+.filters {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#accomodations {
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-areas:
+                "acco-header acco-header acco-header"
+                "cannebiere dockhotel seagull";
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+#accomodations figure {
+    height:200px;
+}
+
+#accomodations figcaption{
+    height: 100%;
+}
+
+#accomodations img{
+    height: 55%;
+    object-fit: cover;
+}
+
+#populary {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+                "pop-header"
+                "morningsun"
+                "waterheart"
+                "whiteandblue";
+    border-radius: 15px;
+    margin-left: 15px;
+    padding-bottom: 30px;
+    grid-gap: 20px;
+}
+
+#populary figure {
+    height: 140px;
+}
+
+.whiteandblue{
+    grid-area: whiteandblue;
+}
+
+#whiteandblue{
+    flex-direction: row;
+}
+
+#whiteandblue > img{
+    width: 40%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+}
+
+#whiteandblue > figcaption{
+    width: 60%;
+    height: 100%;
+}
+
+#activities {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 200px 200px;
+    grid-template-areas:
+    "acti acti acti acti"
+    "olddock pomegues nationalpark notredame"
+    "olddock frioul nationalpark longchamppark";
+    background-color: aqua;
+    grid-gap: 30px ;
+}
+
+#activities figure {
+    height: 100%;
+}
+
+.acti {
+    grid-area: acti;
+}
+
+.olddock {
+    grid-area: olddock;
+}
+
+.pomegues {
+    grid-area: pomegues;
+}
+
+.nationalpark {
+    grid-area: nationalpark;
+}
+
+.notredame {
+    grid-area: notredame;
+}
+
+.longchamppark {
+    grid-area: longchamppark;
+}
+
+.footer {
+    display: grid;
+    grid-area: footer;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+                "title1 title2 title3"
+                "conditions quality support"
+                "conditions quality support"
+                "conditions quality support";
+    grid-gap: 20px;
+    padding: 35px;
+    text-align: left;
+}
+
+.title1 {
+    grid-area: title1;
+}
+
+.title2 {
+    grid-area: title2;
+}
+
+.title3 {
+    grid-area: title3;
+}
+
+.conditions {
+    grid-area: conditions;
+}
+
+.quality {
+    grid-area: quality;
+}
+
+.support {
+    grid-area: support;
+}
