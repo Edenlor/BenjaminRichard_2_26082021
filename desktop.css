@@ -40,7 +40,13 @@ header ul {
     border-bottom: none;
 }
 
-.nav-register, .nav-activities{
+.nav-accomodations a:hover{
+    border-top: 2px solid #0065fc;
+    border-bottom: none;
+    margin-top: -2px;
+}
+
+.nav-register{
     border-bottom: none;
 
 }
@@ -53,16 +59,32 @@ header ul {
     width: 100%;
 }
 
+.nav-activities a{
+    margin-top: 5px;
+}
 
-.nav-accomodations a:hover{
-    border-top: 2px solid #0065fc;
+.nav-activities{
+    border-top: none;
     border-bottom: none;
-    margin-top: -2px;
+}
+
+.nav-activities a:hover{
+    border-top: 2px solid rgba(140, 137, 137, 0.47);
+    border-bottom: none;
+    margin-top: 4px;
 
 }
 
-.nav-activities a{
-    margin-top: 2px;
+.nav-register{
+    border-top: none;
+    border-bottom: none;
+    margin-top: 5px;
+}
+
+.nav-register a:hover{
+    border-top: 2px solid #0065fc;
+    border-bottom: none;
+    margin-top: -2px;
 }
 
 input {
