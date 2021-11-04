@@ -13,7 +13,7 @@ body{
 }
 
 h3 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: black;
 }
 
@@ -27,6 +27,7 @@ header ul {
     grid-template-rows: 80px;
     grid-template-areas:
         "logo nav-accomodations nav-activities nav-register";
+
 }
 
 #logo {
@@ -35,17 +36,36 @@ header ul {
 }
 
 .nav-accomodations{
-    border-top: 2px solid #0065fc;
+    border-top: none;
     border-bottom: none;
-    justify-content: center;
 }
 
 .nav-register, .nav-activities{
     border-bottom: none;
-    justify-content: center;
+
 }
 
-input{
+.nav-register a, .nav-accomodations a, .nav-activities a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.nav-accomodations a:hover{
+    border-top: 2px solid #0065fc;
+    border-bottom: none;
+    margin-top: -2px;
+
+}
+
+.nav-activities a{
+    margin-top: 2px;
+}
+
+input {
     width: 25%;
 }
 
@@ -59,6 +79,7 @@ input{
 
 .searching > button {
     width: auto;
+    border-radius: 0 13px 13px 0;
 }
 
 .filters {
@@ -127,12 +148,12 @@ input{
 
 #activities {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto 200px 200px;
+    grid-template-rows: auto 180px 20px 180px;
     grid-template-areas:
     "acti acti acti acti"
-    "olddock pomegues nationalpark notredame"
-    "olddock frioul nationalpark longchamppark";
-    background-color: aqua;
+    "acti1 acti2 acti4 acti5"
+    "acti1 acti2 acti4 acti6"
+    "acti1 acti3 acti4 acti6";
     grid-gap: 30px ;
 }
 
@@ -144,24 +165,28 @@ input{
     grid-area: acti;
 }
 
-.olddock {
-    grid-area: olddock;
+.acti1 {
+    grid-area: acti1;
 }
 
-.pomegues {
-    grid-area: pomegues;
+.acti2 {
+    grid-area: acti2;
 }
 
-.nationalpark {
-    grid-area: nationalpark;
+.acti3 {
+    grid-area: acti3;
 }
 
-.notredame {
-    grid-area: notredame;
+.acti4 {
+    grid-area: acti4;
 }
 
-.longchamppark {
-    grid-area: longchamppark;
+.acti5 {
+    grid-area: acti5;
+}
+
+.acti6 {
+    grid-area: acti6;
 }
 
 .footer {

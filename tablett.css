@@ -3,7 +3,15 @@
 }
 
 h1{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+h3{
+    font-size: 1.1rem;
 }
 
 header > p{
@@ -137,7 +145,7 @@ input{
 }
 
 #populary figcaption h3{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 #activities{
@@ -182,8 +190,6 @@ grid-template-areas:
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
                 "title1 title2 title3"
-                "conditions quality support"
-                "conditions quality support"
                 "conditions quality support";
     grid-gap: 20px;
 }
