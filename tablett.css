@@ -1,189 +1,189 @@
-:root{
+:root {
     font-size: 15px;
 }
 
-h1{
+h1 {
     font-size: 1.3rem;
 }
 
-h2{
+h2 {
     font-size: 1.2rem;
 }
 
-h3{
+h3 {
     font-size: 1.1rem;
 }
 
-header > p{
+header > p {
     font-size: 1.2rem;
 }
 
-form{
+form {
     padding: 20px;
 }
 
-#marker{
+#marker {
     border-radius: 12px 0 0 12px;
     height: 35px;
     width: 35px;
     line-height: 35px;
 }
 
-input{
+input {
     height: 35px;
     width: 35%;
     font-size: 1.1rem;
 }
 
-.searching > button{
+.searching > button {
     border-radius: 12px;
     height: 35px;
     width: 35px;
 }
 
-.filters{
+.filters {
     font-size: 1.1rem;
     padding: 0 0 15px 0;
 }
 
-#accomodations{
+#accomodations {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
             "acco-header acco-header"
-            "cannebiere dockhotel"
-            "seagull seahotel"
-            "bucket amina";
+            "acco1 acco2"
+            "acco3 acco4"
+            "acco5 acco6";
     background-color: #f2f2f2;
 }
 
-.acco-header{
+.acco-header {
     grid-area: acco-header;
 }
 
-.cannebiere{
-    grid-area: cannebiere;
+.acco1 {
+    grid-area: acco1;
 }
 
-.dockhotel{
-    grid-area: dockhotel;
+.acco2 {
+    grid-area: acco2;
 }
 
-.seagull{
-    grid-area: seagull
+.acco3 {
+    grid-area: acco3;
 }
 
-.seahotel{
-    grid-area: seahotel;
+.acco4 {
+    grid-area: acco4;
 }
 
-.bucket{
-    grid-area: bucket;
+.acco5 {
+    grid-area: acco5;
 }
 
-.amina{
-    grid-area: amina;
+.acco6 {
+    grid-area: acco6;
 }
 
-#populary{
+#populary {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 150px 150px;
     grid-template-areas:
                 "pop-header pop-header"
-                "morningsun whiteandblue"
-                "waterheart whiteandblue";
+                "pop1 pop3"
+                "pop2 pop3";
 }
 
-#populary figure{
+#populary figure {
     height: 100%;
 }
 
-#populary > img{
+#populary > img {
     display: none;
 }
 
-.pop-header{
+.pop-header {
     grid-area: pop-header;
 }
 
-.morningsun{
-    grid-area: morningsun;
+.pop1{
+    grid-area: pop1;
 }
 
-#morningsun > img{
+.pop1 > figure > img {
     width: 40%;
 }
 
-.waterheart{
-    grid-area: waterheart;
+.pop2 {
+    grid-area: pop2;
 }
 
-#waterheart > img{
+.pop2 > img {
     width: 40%;
 }
 
-.whiteandblue{
-    grid-area: whiteandblue;
+#pop3 {
+    grid-area: pop3;
 }
 
-#whiteandblue{
+#pop3 > figure{
     flex-direction: column;
 }
 
-#whiteandblue > img{
+#pop3 > figure > img {
     width: 100%;
     height: 65%;
     border-radius: 15px 15px 0 0;
 }
 
-#whiteandblue > figcaption{
-    width:100%;
+#pop3 > figure > figcaption {
+    width: 100%;
     height: 35%;
 }
 
-#populary figcaption{
+#populary figcaption {
     width: 60%;
 }
 
-#populary figcaption h3{
+#populary figcaption h3 {
     font-size: 1rem;
 }
 
-#activities{
-grid-template-columns: 1fr 1fr;
-grid-template-areas:
+#activities {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
 "acti acti"
-"oldock pomegues"
-"frioul nationalpark"
-"notredame longchamppark";
+"acti1 acti2"
+"acti3 acti4"
+"acti5 acti6";
     background-color: white;
 }
 
-.acti{
+.acti {
     grid-area: acti;
 }
 
-.olddock{
-    grid-area: oldock;
+.acti1 {
+    grid-area: acti1;
 }
 
-.pomegues{
-    grid-area: pomegues;
+.acti2 {
+    grid-area: acti2;
 }
 
-.frioul{
-    grid-area: frioul
+.acti3 {
+    grid-area: acti3;
 }
 
-.nationalpark{
-    grid-area: nationalpark;
+.acti4 {
+    grid-area: acti4;
 }
 
-.notredame{
-    grid-area: notredame;
+.acti5 {
+    grid-area: acti5;
 }
 
-.longchamppark{
-    grid-area: longchamppark;
+.acti6 {
+    grid-area: acti6;
 }
 
 .footer {
