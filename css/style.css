@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Roboto";
-    src: url("polices_p2/web fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff");
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
 }
 
 :root {
