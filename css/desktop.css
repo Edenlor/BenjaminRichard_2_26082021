@@ -28,7 +28,7 @@ header ul {
     grid-template-columns: 5fr 1fr 1fr 1fr;
     grid-template-rows: 80px;
     grid-template-areas:
-        "log nav-accomodations nav-activities nav-register";
+        "logo nav-accomodations nav-activities nav-register";
 
 }
 

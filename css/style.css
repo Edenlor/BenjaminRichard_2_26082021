@@ -228,18 +228,6 @@ figcaption h3 {
     grid-area: accomodations;
     padding: 15px;
     display: grid;
-    grid-gap: 15px;
-}
-
-#accomodations figure {
-    padding: 3px;
-    height: 210px;
-    border: 1px solid #ffffff;
-    border-radius: 15px;
-    background-color: white;
-    box-shadow: 0 5px 10px #cecece;
-    display: flex;
-    flex-direction: column;
 
 }
 
