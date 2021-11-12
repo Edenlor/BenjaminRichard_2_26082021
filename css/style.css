@@ -17,6 +17,7 @@ body {
         "accomodations"
         "activities"
         "footer";
+    grid-gap: 20px;
 }
 
 h1{
@@ -168,6 +169,10 @@ input{
 
 button > span{
     padding: 0 10px;
+}
+
+button:hover{
+    background-color: #0065fc;
 }
 
 .economy, .romantic, .family, .animals {
